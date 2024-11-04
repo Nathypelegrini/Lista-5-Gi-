@@ -1,4 +1,4 @@
-Questão 8
+#Questão 8
 
 def contar_vogais(palavra):
     # Definindo a string que contém todas as vogais
