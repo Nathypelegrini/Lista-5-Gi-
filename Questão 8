@@ -1,0 +1,21 @@
+Questão 8
+
+def contar_vogais(palavra):
+    # Definindo a string que contém todas as vogais
+    vogais = "aeiouAEIOU"
+    # Inicializando o contador de vogais
+    contador = 0
+
+    # Iterando por cada letra da palavra
+    for letra in palavra:
+        if letra in vogais:
+            contador += 1
+
+    return contador
+
+# Solicitando a palavra do usuário
+palavra = input("Digite uma palavra: ")
+
+# Chamando a função e exibindo o resultado
+quantidade_vogais = contar_vogais(palavra)
+print(f"A palavra '{palavra}' contém {quantidade_vogais} vogal(is).")
