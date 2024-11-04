@@ -1,0 +1,12 @@
+Questão 3
+
+# Utilizando for e if para encontrar múltiplos de 7 de 100 a 200
+print("Múltiplos de 7 de 100 a 200 (usando for e if):")
+for numero in range(100, 201):
+    if numero % 7 == 0:
+        print(numero)
+
+# Gerando a mesma sequência de múltiplos de 7 com range e list
+print("\nMúltiplos de 7 de 100 a 200 (usando range e list):")
+multiplos_de_7 = list(range(105, 201, 7))
+print(multiplos_de_7)
