@@ -1,0 +1,53 @@
+Questão 5
+
+Vamos analisar cada linha de código e entender o que faz, junto com o resultado que seria impresso na tela:
+sempre que vc quiser imprimir algo na tela tem que dizer print se não nada sera impresso, coloquei um adendo no final sobre isso 
+Explicação de cada linha:
+
+1. `a = 'avião'`
+   - Explicação: A variável `a` recebe a string `'avião'`.
+   - Resultado: Nenhum valor é impresso na tela.
+
+2. `b = 'bola'`
+   - Explicação: A variável `b` recebe a string `'bola'`.
+   - Resultado: Nenhum valor é impresso na tela.
+
+3. `c = 'cadeira'`
+   - Explicação: A variável `c` recebe a string `'cadeira'`.
+   - Resultado: Nenhum valor é impresso na tela.
+
+4. `L = [a, b, c]`
+   - Explicação: A lista `L` é criada, contendo as variáveis `a`, `b` e `c`. Portanto, `L` é uma lista que armazena as strings `'avião'`, `'bola'` e `'cadeira'`.
+   - Resultado: Nenhum valor é impresso na tela.
+
+5. `len(L)`
+   - Explicação: `len(L)` retorna o número de elementos na lista `L`. Como `L` contém três elementos (`'avião'`, `'bola'`, e `'cadeira'`), o resultado é `3`.
+   - Resultado: O valor `3` é calculado, mas não é impresso na tela.
+
+6. `len(L[1])`
+   - Explicação: `L[1]` acessa o segundo elemento da lista `L`, que é `'bola'`. `len(L[1])` calcula o comprimento da string `'bola'`, que é `4` (porque a palavra `'bola'` tem 4 caracteres).
+   - Resultado: O valor `4` é calculado, mas não é impresso na tela.
+
+7. `type(L)`
+   - Explicação: `type(L)` retorna o tipo de `L`. Como `L` é uma lista, o resultado é `<class 'list'>`.
+   - Resultado: O tipo `<class 'list'>` é calculado, mas não é impresso na tela.
+
+8. `type(L[1])`
+   - Explicação: `L[1]` é o segundo elemento da lista, que é a string `'bola'`. `type(L[1])` retorna o tipo desse elemento, que é `<class 'str'>`.
+   - Resultado: O tipo `<class 'str'>` é calculado, mas não é impresso na tela.
+
+
+Resultado se os valores fossem impressos
+Se você quisesse imprimir esses valores, o código ficaria assim:
+
+```python
+a = 'avião'
+b = 'bola'
+c = 'cadeira'
+L = [a, b, c]
+
+print(len(L))       # Imprime: 3
+print(len(L[1]))    # Imprime: 4
+print(type(L))      # Imprime: <class 'list'>
+print(type(L[1]))   # Imprime: <class 'str'>
+```
